@@ -49,48 +49,48 @@ Config.Shops = {
         ['TestDriveSpawn'] = vector4(-56.79, -1109.85, 26.43, 71.5), -- Spawn location for test drive
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-45.65, -1093.66, 25.44, 69.5), -- where the vehicle will spawn on display
-                defaultVehicle = 'adder', -- Default display vehicle
-                chosenVehicle = 'adder', -- Same as default but is dynamically changed when swapping vehicles
+                coords = vector4(-42.41, -1101.04, 26.30, 205.5), -- where the vehicle will spawn on display
+                defaultVehicle = '13fmb302', -- Default display vehicle
+                chosenVehicle = '13fmb302', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
-                coords = vector4(-48.27, -1101.86, 25.44, 294.5),
-                defaultVehicle = 'schafter2',
-                chosenVehicle = 'schafter2',
+                coords = vector4(-37.31, -1092.81, 26.30, 158.51),
+                defaultVehicle = '21camaro',
+                chosenVehicle = '21camaro',
             },
             [3] = {
-                coords = vector4(-39.6, -1096.01, 25.44, 66.5),
-                defaultVehicle = 'comet2',
-                chosenVehicle = 'comet2',
+                coords = vector4(-47.79, -1091.88, 26.30, 216.79),
+                defaultVehicle = 'asbo',
+                chosenVehicle = 'asbo',
             },
             [4] = {
-                coords = vector4(-51.21, -1096.77, 25.44, 254.5),
+                coords = vector4(-49.8, -1083.27, 26.30, 199.68),
                 defaultVehicle = 'vigero',
                 chosenVehicle = 'vigero',
             },
             [5] = {
-                coords = vector4(-40.18, -1104.13, 25.44, 338.5),
-                defaultVehicle = 't20',
-                chosenVehicle = 't20',
+                coords = vector4(-54.43, -1096.62, 26.25, 161.6),
+                defaultVehicle = 'buffalo',
+                chosenVehicle = 'buffalo',
             },
             [6] = {
-                coords = vector4(-43.31, -1099.02, 25.44, 52.5),
+                coords = vector4(-52.38, -1088.93, 26.30, 66.65),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati',
             },
             [7] = {
-                coords = vector4(-50.66, -1093.05, 25.44, 222.5),
+                coords = vector4(-53.33, -1092.2, 26.30, 65.29),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati',
             },
             [8] = {
-                coords = vector4(-44.28, -1102.47, 25.44, 298.5),
+                coords = vector4(-51.06, -1100.3, 26.30, 188.36),
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati',
             }
         },
     },
-    ['luxury'] = {
+    --[[['luxury'] = {
         ['Type'] = 'managed',  -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
@@ -250,5 +250,5 @@ Config.Shops = {
                 chosenVehicle = 'frogger',
             },
         },
-    },
+    },--]]
 }
