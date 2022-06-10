@@ -11,14 +11,6 @@ Config.Shops = {
     ['pdm'] = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a car
         ['Zone'] = {
-<<<<<<< HEAD
-            ['Shape'] = { --polygon that surrounds the shop
-            vector2(-60.608428955078, -1099.9835205078),
-            vector2(-52.468139648438, -1077.3533935546),
-            vector2(-24.77331161499, -1087.6850585938),
-            vector2(-17.55672454834, -1090.357421875),
-            vector2(-25.342241287232, -1112.1872558594)
-=======
             ['Shape'] = {--polygon that surrounds the shop
                 vector2(-56.727394104004, -1086.2325439453),
                 vector2(-60.612808227539, -1096.7795410156),
@@ -28,7 +20,6 @@ Config.Shops = {
                 vector2(-32.02657699585, -1101.5877685547),
                 vector2(-33.342102050781, -1101.0377197266),
                 vector2(-31.292987823486, -1095.3717041016)
->>>>>>> upstream/main
             },
             ['minZ'] = 25.0, -- min height of the shop zone
             ['maxZ'] = 28.0, -- max height of the shop zone
@@ -63,7 +54,6 @@ Config.Shops = {
                 chosenVehicle = '13fmb302', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
-<<<<<<< HEAD
                 coords = vector4(-37.31, -1092.81, 26.30, 158.51),
                 defaultVehicle = '21camaro',
                 chosenVehicle = '21camaro',
@@ -72,16 +62,6 @@ Config.Shops = {
                 coords = vector4(-47.79, -1091.88, 26.30, 216.79),
                 defaultVehicle = 'asbo',
                 chosenVehicle = 'asbo',
-=======
-                coords = vector4(-48.27, -1101.86, 25.44, 294.5),
-                defaultVehicle = 'schafter2',
-                chosenVehicle = 'schafter2'
-            },
-            [3] = {
-                coords = vector4(-39.6, -1096.01, 25.44, 66.5),
-                defaultVehicle = 'comet2',
-                chosenVehicle = 'comet2'
->>>>>>> upstream/main
             },
             [4] = {
                 coords = vector4(-49.8, -1083.27, 26.30, 199.68),
@@ -89,15 +69,9 @@ Config.Shops = {
                 chosenVehicle = 'vigero'
             },
             [5] = {
-<<<<<<< HEAD
                 coords = vector4(-54.43, -1096.62, 26.25, 161.6),
                 defaultVehicle = 'buffalo',
                 chosenVehicle = 'buffalo',
-=======
-                coords = vector4(-40.18, -1104.13, 25.44, 338.5),
-                defaultVehicle = 't20',
-                chosenVehicle = 't20'
->>>>>>> upstream/main
             },
             [6] = {
                 coords = vector4(-52.38, -1088.93, 26.30, 66.65),
@@ -116,13 +90,8 @@ Config.Shops = {
             }
         },
     },
-<<<<<<< HEAD
     --[[['luxury'] = {
         ['Type'] = 'managed',  -- meaning a real player has to sell the car
-=======
-    ['luxury'] = {
-        ['Type'] = 'managed', -- meaning a real player has to sell the car
->>>>>>> upstream/main
         ['Zone'] = {
             ['Shape'] = {
                 vector2(-1260.6973876953, -349.21334838867),
