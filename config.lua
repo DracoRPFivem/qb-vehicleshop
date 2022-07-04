@@ -151,7 +151,7 @@ Config.Shops = {
                 chosenVehicle = 'hexer'
             },
         }
-    }, -- Add your next table under this comma
+    },--]] -- Add your next table under this comma
     ['boats'] = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a vehicle
         ['Zone'] = {
@@ -201,7 +201,7 @@ Config.Shops = {
             },
         },
     },
-    ['air'] = {
+    --[[['air'] = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a vehicle
         ['Zone'] = {
             ['Shape'] = {--polygon that surrounds the shop
